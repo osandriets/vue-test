@@ -1,0 +1,23 @@
+.btn{
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+  padding: 8px 19px;
+  line-height: 1;
+  border-radius: $border-radius-base;
+  border: none;
+
+  &:disabled{
+    opacity: .75;
+    pointer-events: none;
+    //cursor: not-allowed;
+  }
+}
+
+.btn:focus, .btn:hover {
+  text-decoration: none;
+}
