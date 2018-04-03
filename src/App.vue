@@ -17,12 +17,6 @@ export default {
 }
 
 @import "assets/scss/variables";
-@import "assets/scss/mixins";
-
 @import "assets/scss/reboot";
-@import "assets/scss/grid";
-
-@import "assets/scss/buttons";
-@import "assets/scss/forms";
 
 </style>

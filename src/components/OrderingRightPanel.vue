@@ -57,12 +57,11 @@ export default {
     @import "../assets/scss/variables";
     .order-card{
         background: $inverse-color;
-        border: 1px solid $border-color;
+        border: $border-width solid $border-color;
         border-radius: $border-radius-base;
-        font-size: 14px;
     }
     .order-card__header{
-        font-size: 18px;
+        font-size: $font-size-lg;
         font-weight: bold;
         border-bottom: $border-width dotted $border-color;
         padding: map-get($spacers, 3) map-get($spacers, 3);
@@ -75,7 +74,7 @@ export default {
     .order-card__block_img{
         width: 68px;
         height: 68px;
-        margin-right: map-get($spacers, 2);
+        margin-right: map-get($spacers, 3);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -99,7 +98,7 @@ export default {
     }
 
     .order-card__footer{
-        font-size: 18px;
+        font-size: $font-size-lg;
         font-weight: bold;
         text-align: right;
         padding: map-get($spacers, 3) map-get($spacers, 3);
